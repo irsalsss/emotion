@@ -1,10 +1,12 @@
 import Basic from "./components/Basic";
+import Styled from "./components/Styled";
 import MoreButton from "./components/MoreButton";
 
 const App = () => {
   return (
     <div id="root">
-      <Basic />
+      {/* <Basic /> */}
+      <Styled />
       {/* <MoreButton /> */}
     </div>
   );
