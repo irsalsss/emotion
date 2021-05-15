@@ -1,14 +1,14 @@
 import Basic from "./components/Basic";
 import Styled from "./components/Styled";
 import MoreButton from "./components/MoreButton";
-import NestedQuery from "./components/NestedQuery";
+import NestedSelector from "./components/NestedSelector";
 
 const App = () => {
   return (
     <div id="root">
       {/* <Basic /> */}
       {/* <Styled /> */}
-      <NestedQuery />
+      <NestedSelector />
       {/* <MoreButton /> */}
     </div>
   );
