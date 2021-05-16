@@ -78,6 +78,10 @@ const NestedQuery = () => {
               hover yang kedua
             </Paragraph>
           </Button>
+
+          <Paragraph>
+              hover yang pertama
+            </Paragraph>
         </Card>
       ))}
     </div>

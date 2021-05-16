@@ -39,7 +39,7 @@ const BasicButton = () => {
         changes.
       </p>
 
-      {/* --------------INLINE STYLE YAK GAES YAK-------------- */}
+      {/* --------------INLINE STYLE -------------- */}
       <div
         css={{
           marginBottom: '2rem',
@@ -65,7 +65,7 @@ const BasicButton = () => {
         Hover to change color.
       </div>
 
-      {/* --------------IMPORT / REUSABLE STYLE YAK GAES YAK-------------- */}
+      {/* --------------IMPORT / REUSABLE STYLE -------------- */}
       <p css={[ bgBlack, white, py(20), pxRem(1) ]}>
         This has a black background and is hotpink. Try moving
         where hotpink is in the css call and see if the color
