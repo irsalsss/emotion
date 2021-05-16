@@ -12,3 +12,7 @@ export const box = (h, w) => css`
   ${height(h)}
   ${width(w)}
 `;
+
+export const borderRadius = (props) => css`
+  border-radius: ${props}px
+`;
