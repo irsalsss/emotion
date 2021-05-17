@@ -1,30 +1,28 @@
 import { css } from '@emotion/react';
 
 // klo di scss
-/*
-@for $i from -150 to 280 {
-  .pl-#{$i} {
-    padding-left: $i + px !important;
-  }
-  .pr-#{$i} {
-    padding-right: $i + px !important;
-  }
-  .pb-#{$i} {
-    padding-bottom: $i + px !important;
-  }
-  .pt-#{$i} {
-    padding-top: $i + px !important;
-  }
-  .px-#{$i} {
-    padding-left: $i + px!important;
-    padding-right: $i + px!important;
-  }
-  .py-#{$i} {
-    padding-top: $i + px !important;
-    padding-bottom: $i + px !important;
-  }
-}
-*/
+// @for $i from -150 to 280 {
+//   .pl-#{$i} {
+//     padding-left: $i + px !important;
+//   }
+//   .pr-#{$i} {
+//     padding-right: $i + px !important;
+//   }
+//   .pb-#{$i} {
+//     padding-bottom: $i + px !important;
+//   }
+//   .pt-#{$i} {
+//     padding-top: $i + px !important;
+//   }
+//   .px-#{$i} {
+//     padding-left: $i + px!important;
+//     padding-right: $i + px!important;
+//   }
+//   .py-#{$i} {
+//     padding-top: $i + px !important;
+//     padding-bottom: $i + px !important;
+//   }
+// }
 
 export const pt = (props) => css`
   padding-top: ${props}px;

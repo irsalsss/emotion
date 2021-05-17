@@ -72,7 +72,7 @@ const BasicButton = () => {
         changes.
       </p>
 
-      <div css={[ flexCenterCenter, p(16), bgBlack ]}>
+      <div aria-label='box-black' css={[ flexCenterCenter, p(16), bgBlack ]}>
         <div css={[ box(100, 200), bgWhite ]} />
       </div>
     </div>
